@@ -1,0 +1,48 @@
+.navbar-header{
+    font-family: "Impact";  
+}
+#menu-titulo{
+    background-color: #BAD696;
+}
+.footer{
+    background-color: #BAD696;
+    font-family: "Trebuchet MS Italic";
+    font-weight: bold;
+}
+.panel-heading{
+    font-family: "Georgia Italic";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    color: aliceblue;
+}
+.panel-body{
+    font-family: "Georgia";
+    font-style: italic;
+}
+.nav-tabs{
+    color: "#C3D6AA";  
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-stretch:expanded;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    background-color: "#283A10" !important;
+    color:darkgreen;
+}
+.nav-tabs >li.active > a{
+    color: "#4D642D" !important;   
+}
+h3{
+    font-family: "Impact"; 
+    font-size: 200%; 
+    font-stretch: semi-expanded;
+    color:"#283A10";
+}
+body{
+    background-color: "#C3D6AA";   
+}
+h4{
+    text-align: left;
+    font-weight: bold;
+}

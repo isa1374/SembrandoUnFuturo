@@ -1,0 +1,265 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sembrando un Futuro - Home </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container-fluid" id="menu-titulo">
+                <div class="navbar-header">
+                    <div class="col-md-1">
+                        <a class="navbar-brand" href="#">
+                            <img alt="SF" src="Logo_SF/SF_32x30.png">
+                        </a>      
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="navbar-text">Sembrando un Futuro</h3>
+                    </div>
+                </div>
+            </div> 
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul class="nav nav-tabs nav-stacked" role="tablist">
+                        <li class="active"><a href="#hometab" role="tab" data-toggle="tab">Home</a></li>
+                        <li><a href="#misiontab" role="tab" data-toggle="tab">Misión y Visión</a></li>
+                        <li><a href="#Productostab" role="tab" data-toggle="tab">Productos</a></li>
+                        <!--dropdown in navtab-->
+                        <li role="presentation" class="dropdown">
+                            <a role="button tab" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Labor Social<span class="caret"></span></a>
+                            <!--menu of dropdown-->
+                            <ul class="dropdown-menu nav nav-tabs nav-stacked" role="menu">
+                                <li class="active"><a href="#LaborSocialtab" role="tab" data-toggle="tab">Equipo SF</a></li>
+                                <li><a href="#CasasHogartab" role="tab" data-toggle="tab">Casas Hogar</a></li>
+                                <li><a href="#Patrocinadorestab" role="tab" data-toggle="tab">Patrocinadores</a></li>
+                            </ul>
+                        </li>
+                        <!--end dropdown-->
+                        <li><a href="#contactotab" role="tab" data-toggle="tab">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="hometab">
+                            <div class="row jumbotron">
+                                <div class="col-md-1"></div>  
+                                <div class="col-md-9" id="content">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <figure>
+                                                <img src="img_general/ni%C3%B1os_!.jpg" alt="Niños" class="img-responsive img-rounded">
+                                            </figure> 
+                                        </div>
+                                        <div class="col-md-6">
+                                            <figure>
+                                                <img src="img_general/ni%C3%B1os_2.jpg" alt="Niños" class="img-responsive img-rounded">
+                                            </figure> 
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-success">
+                                        <div class="panel-heading">¿Quiénes somos?</div>
+                                        <div class="panel-body">   
+                                            <p>Sembrando un futuro es un proyecto social en donde se pretende ayudar económicamente a niñas entre 6 y 18 años que viven en casas-hogar de la Ciudad de México por medio de la venta de macetas fabricadas de por ellas mismas. 
+                    Las macetas se fabricarán en talleres impartidas por Sembrando un futuro para impulsar distintas habilidades en las niñas, como lo son la concentración y la creatividad. 
+                    Parte de los recursos recaudados irán para las casas-hogar participantes para cubrir sus necesidades y generar un fondo a futuro para las niñas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="misiontab">
+                            <div class="row jumbotron">
+                                <div class="panel panel-success" id="Mision">
+                                    <div class="panel-heading">Misión</div>
+                                    <div class="panel-body">
+                                        <p>“Sembrando un futuro” tiene como misión ayudar a niñas en estado de orfandad en los ámbitos económico y social.</p>
+                                    </div>
+                                </div>
+                                <div class="panel panel-success" id="Vision">
+                                    <div class="panel-heading">Visión</div>
+                                    <div class="panel-body">
+                                        <p>Nuestra visión es que “Sembrando un futuro” tenga un impacto positivo en la vida de las niñas de las casas-hogar. En un futuro se busca la posibilidad de expandir los talleres, es decir, abarcar la mayor parte de las casas-hogares que existen actualmente en la Ciudad de México. </p>
+                                    </div>
+                                </div>
+                                <div class="panel panel-success" id="Objetivos">
+                                    <div class="panel-heading">Objetivo</div>
+                                    <div class="panel-body"> 
+                                        <p>El objetivo es mejorar la calidad de vida de las niñas de la casa-hogar, brindándoles más recursos por medio del ingreso adicional de la venta de las macetas y ofreciéndoles un taller didáctico en el cual puedan desarrollar y practicar habilidades como la creatividad.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="Productostab">
+                            <div class="row jumbotron">
+                                <h3>Productos</h3>
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img_producto/mc_1.jpg" alt="Maceta 1">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img_producto/mc_2.png" alt="Maceta 2">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img_producto/mc_3.png">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Siguiente</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="LaborSocialtab">
+                            <div class="row jumbotron">
+                                <h3>Labor Social</h3>
+                                <div class="panel panel-success">
+                                    <div class="panel-heading" id="miembros_panel_h">Miembros</div>
+                                    <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <figure>
+                                                <img alt="Isabel García" class="img-responsive img-rounded" src="img_miembros/m1.jpg">
+                                                <figcaption>
+                                                    <h4>Isabel García Pérez</h4>
+                                                    <h6>Estudiante de ITC</h6>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <figure>
+                                                <img class="img-responsive img-rounded" alt="Pamela Moreno" src="img_miembros/m3.jpg">
+                                                <figcaption>  
+                                                    <h4>Pamela Moreno Franco</h4>
+                                                    <h6>Estudiante de LIN</h6>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <figure>
+                                                <img class="img-responsive img-rounded" src="img_miembros/m2.jpg" alt="liliana García">
+                                                <figcaption>
+                                                    <h4>Liliana García Cortés</h4>
+                                                    <h6>Estudiante de LED</h6>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <figure>
+                                                <img class="img-responsive img-rounded" src="img_miembros/m4.jpg" alt="Pamela Varillas">
+                                                <figcaption>
+                                                    <h4>Pamela Varillas Urquiza</h4>
+                                                    <h6>Estudiante de LIN</h6>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="contactotab">
+                            <div class="row jumbotron">
+                                <div class="panel panel-success">
+                                    <div class="panel-heading">Contáctanos</div>
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Facebook</h4>
+                                                <a href="https://www.facebook.com/Sembrando-un-futuro-1825907327624850/?view_public_for=1825907327624850" target="_blank">Sembrando un Futuro</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="CasasHogartab">
+                            <div class="row jumbotron">
+                                <div class="panel panel-success">
+                                    <div class="panel-heading">Casas Hogar Participantes</div>
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-1"></div>
+                                            <div class="col-md-10">
+                                                <div class="row jumbotron">
+                                                    <div class="col-md-1"></div>
+                                                    <h3>La Esperanza</h3>
+                                                    <div class="col-md-4">
+                                                        <figure>     
+                                                            <img class="img-responsive img-rounded" src="img_casashogar/ch_1.JPG" alt="La Esperanza">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="col-md-1"></div>
+                                                    <div class="col-md-4">
+                                                        <h4>Dirección</h4><h5>Av. Revolución 10 C.P. 17823</h5>
+                                                    </div>
+                                                    <div class="col-md-1"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="tab-pane" id="Patrocinadorestab">
+                            <div class="row jumbotron">
+                                <div class="panel panel-success">
+                                    <div class="panel-heading">Patrocinadores</div>
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-1"></div>
+                                            <div class="col-md-10">
+                                                <div class="row jumbotron">
+                                                    <div class="col-md-1"></div>
+                                                    <h3>Coca Cola</h3>
+                                                    <div class="col-md-4">
+                                                        <figure>     
+                                                            <img class="img-responsive img-rounded" src="img_patrocinador/pt_1.png" alt="Coca Cola">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="col-md-1"></div>
+                                                    <div class="col-md-4">
+                                                        <h4>Dirección</h4><h5>Boulevard de los Ferrocarriles 243, Azcapotzalco, Industrial Vallejo, 02300 Ciudad de México, D.F.</h5>
+                                                    </div>
+                                                    <div class="col-md-1"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <p>Sembrando un Futuro, 2016.</p>
+            </div>
+        </div>
+    </body>
+</html>
